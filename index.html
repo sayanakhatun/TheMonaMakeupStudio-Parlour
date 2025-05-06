@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Mona Makeup Studio & Parlour</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- <style>
+    #submit-btn:hover {
+      background-color:black;
+      cursor: pointer;
+    }
+    #message {
+      display: none;
+      color:black;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  </style> -->
+</head>
+<body>
+<div id="home">
+  <!-- Navbar -->
+<header>
+  <div class="logo">
+    <span class="logo-main">The Mona Makeup</span><br>
+    <span class="logo-sub">Studio & Parlour</span>
+  </div>
+  <!-- <div class="menu-toggle" id="menu-toggle">&#9776;</div> -->
+
+  <div class="hamburger">
+
+  </div>
+  <button id="menu-toggle" class="menu-toggle">☰</button>
+
+<nav id="navbar" class="navbar-links">
+  <a href="#home" class="nav-link">Home</a>
+  <a href="#about" class="nav-link">About</a>
+  <a href="#services" class="nav-link">Services</a>
+  <a href="#gallery" class="nav-link">Gallery</a>
+  <a href="#contact" class="nav-link">Contact</a>
+</nav>
+
+</header>
+
+  <section class="hero">
+    <div class="hero-img">
+      <img src="4th.jpg" alt="Bridal makeup look by The Mona Studio" />
+    </div>
+    <div class="hero-text">
+      <h1>Your Big Day in Style</h1>
+      <p>
+        Step into elegance with The Mona Makeup Studio & Parlour — where bridal dreams come true. Our expertise in makeup and hairstyling ensures that you look your absolute best on your special day. Let us create a timeless look that’s as unique and beautiful as you are.
+        <br><br>
+        Why Choose Us?
+        <br>
+        ✔ Professional and Experienced Artists
+        <br>
+        ✔ Customized Bridal Packages
+        <br>
+        ✔ On-location Services Available
+        <br>
+        ✔ High-Quality Products Used
+        <br>
+        ✔ Tailored Looks to Match Your Vision
+        <br><br>
+        Book Your Appointment Today!
+      </p>
+      <a href="https://wa.me/9279326388" target="_blank">
+        <button class="cta-btn">Schedule Your Time</button>
+      </a>
+      
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-img">
+        <img src="Artist.jpg" alt="Professional makeup artist in action" />
+      </div>
+      <div class="about-text">
+        <h2>Our Story</h2>
+        <h3>The Mona Makeup Studio & Parlour</h3>
+        <p>
+          Hi, I’m Mona — a certified celebrity makeup artist with over 9 years of experience in creating timeless, elegant, and camera-ready looks. I spent 6 of those years working in Delhi, where I gained invaluable skills and exposure. My journey began with a simple brush and a bold dream. Today, I’ve had the honor of working with hundreds of clients — from brides to influencers. Currently, I’m bringing that same passion and expertise to my work in Naugachia.
+          <br><br>
+          <br><br>
+          I specialize in:
+          <br>✨ Bridal & Engagement Makeup
+          <br>💃 Party & Glam Looks
+          <br>💇‍♀️ Custom Hairstyling
+          <br>💅 Premium Salon Services
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2 class="section-title">Services</h2>
+    <p class="section-subtitle">What We Do</p>
+    <div class="services-grid">
+      <div class="service-box"><img src="manicure.png" alt="Manicure"><h3>Manicure</h3></div>
+      <div class="service-box"><img src="th.jpeg" alt="Pedicure"><h3>Pedicure</h3></div>
+      <div class="service-box"><img src="makeup-artist.png" alt="Makeup"><h3>Makeup</h3></div>
+      <div class="service-box"><img src="woman.png" alt="Hairstyle"><h3>Hairstyle</h3></div>
+      <div class="service-box"><img src="layered-hair.png" alt="Haircut"><h3>Haircut</h3></div>
+      <div class="service-box"><img src="eyebrow.png" alt="Eyebrow Design"><h3>Eyebrow Design</h3></div>
+      <div class="service-box"><img src="waxing.png" alt="Waxing"><h3>Waxing</h3></div>
+      <div class="service-box"><img src="cleaning.png" alt="Skin Cleansing"><h3>Facial</h3></div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <h2 class="section-title">Our Gallery</h2>
+    <div class="gallery-container">
+      <div class="gallery-item"><img src="front page.jpg" alt="Bridal Makeup 1"></div>
+      <div class="gallery-item"><img src="party1.jpg" alt="Party Look"></div>
+      <div class="gallery-item"><img src="hair2.jpg" alt="Facial Treatment"></div>
+      <div class="gallery-item"><img src="2nd.jpg" alt="Hair Styling"></div>
+    </div>
+  </section>
+ 
+  <section class="contact" id="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="contact-subtitle">We'd love to hear from you</p>
+    <form class="contact-form" id="contact-form">
+      <input type="text" name="from_name" placeholder="Your Name" required />
+      <input type="email" name="reply_to" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" id="submit-btn">Send Message</button>
+    </form>
+    <p id="message" style="display:none; color: green;">Message sent successfully!</p>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p id="us">Connect With Us</p>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/the_mona_jha?igsh=NHozcGJ4ejc4Y3Z1" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/162b4d2sJT/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        
+      </div>
+     
+    </div>
+    <p id="copy">&copy; 2025 The Mona Makeup Studio & Parlour. All rights reserved.</p>
+    
+  </footer>
+<!-- Place this at the very end of body tag -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<<<<<<< HEAD
+<script src="app.js"></script>
+=======
+<script>
+  // Initialize EmailJS
+  (function() {
+    emailjs.init("krTb11kRM_JcpETM3");
+  })();
+
+  // Handle form submission
+  document.getElementById("contact-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const submitBtn = document.getElementById("submit-btn");
+    submitBtn.disabled = true;
+
+    emailjs.sendForm("service_p5bam5g", "template_wdpfl4r", this)
+      .then(() => {
+        document.getElementById("message").style.display = "block";
+        document.getElementById("contact-form").reset();
+        setTimeout(() => {
+          submitBtn.disabled = false;
+          document.getElementById("message").style.display = "none";
+        }, 3000);
+      }, (error) => {
+        alert("Failed to send message. Please try again later.");
+        console.error(error);
+        submitBtn.disabled = false;
+      });
+  });
+
+ // Handle navbar toggle for mobile
+
+  const toggleBtn = document.getElementById('menu-toggle');
+  const navbar = document.getElementById('navbar');
+  const navLinks = document.querySelectorAll('.nav-link');
+
+  // Toggle menu
+  toggleBtn.addEventListener('click', () => {
+    navbar.classList.toggle('show');
+  });
+
+  // Close menu on link click
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      navbar.classList.remove('show');  
+    });
+    
+  });
+</script>
+
+</body>
+</html>
