@@ -138,7 +138,20 @@ nav a {
     font-size: 24px;
     margin-left: 250px;
   }
+} 
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #a03c3c;
+    margin-left: auto;
+  }
 }
+
+
 .menu-toggle {
   display: none;
 }
